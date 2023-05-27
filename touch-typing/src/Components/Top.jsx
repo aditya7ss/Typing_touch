@@ -9,7 +9,9 @@ function Top() {
         sx={{ color: "white", fontWeight: "800", letterSpacing: "8px" }}
       >
         Touch Typing
+       
       </Typography>
+      
     </Box>
   );
 }

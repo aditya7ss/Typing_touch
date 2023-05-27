@@ -162,7 +162,7 @@ const Compare = () => {
         marginBottom={"30px"}
       >
         <Box sx={{ display: "flex", justifyContent: "center" }}>
-          <Typography sx={{ fontSize: "30px" }}>Enter Key -</Typography>
+          <Typography sx={{ fontSize: "30px",color:'whitesmoke' }}>Press Key :</Typography>
           <Button
             variant="outlined"
             
@@ -172,7 +172,8 @@ const Compare = () => {
                marginLeft: "20px",
               backgroundColor: "teal",
               fontSize:'25px',
-              height:50
+              height:50,
+            
             }}
           >
             {presenttchar === " " ? "Space" : presenttchar}
@@ -180,7 +181,7 @@ const Compare = () => {
         </Box>
         <Box
           sx={{
-            fontSize: "20px",
+            fontSize: "20px", color:'whitesmoke'
           }}
         >
           Minutes: {minutes} Seconds: {secondss}
@@ -200,13 +201,17 @@ const Compare = () => {
         </Box>
       </Box>
       <TextField
+         
         placeholder="Start Typing........"
         sx={{
           width: { sm: 200, md: 700 },
+          border:'2px solid whiteSmoke',
+          
           marginTop: "20px",
           "& .MuiInputBase-root": {
             height: 80,
             borderRadius: "10px",
+            color:'yellow',
 
             boxShadow:
               "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",

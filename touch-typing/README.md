@@ -1,3 +1,16 @@
+#
+Touch _Typing _Assignment
+
+##TouchTyping
+
+
+##Screen Shot 
+
+![Screenshot 2023-05-27 135525](https://github.com/aditya7ss/Typing_touch/assets/100330745/e6c5da5e-3916-4824-80de-b36ae0db0782)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
